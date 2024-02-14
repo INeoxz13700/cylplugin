@@ -1,0 +1,46 @@
+name: CYLRP-CORE
+version: 1.0
+author: KarmaOwner
+main: fr.karmaowner.common.Main
+depend: [Vault, Citizens, WorldGuard] 
+commands:
+  entreprise:
+    description: Entreprise commandes
+    usage: /entreprise ou /ent
+    aliases: [ent]
+  atm:
+    description: Atm commandes
+  casino:
+    description: Commandes du Casino
+    usage: /casino ou /cas
+    aliases: [cas]
+  jobs:
+    description: Metiers
+    aliases: [jbs,lois,maire,assaut,attentat,playerdebug,log,bienvenue,vote,bvn,sdata,pdata,wantedlist,wanted,threaddebug,radio,actionrp,roll,couvrefeu,reqmandat,reqmandataccpt,mandatremove,anonyme,call,amende,craft,rp,hrp,chatgang,chatentreprise]
+  colis:
+    description: Colis stratégique
+  chat:
+    description: Différent canal de chat
+    usage: /chat ou /cht
+    aliases: [cht]
+  restorerg:
+    description: Remise en état des régions définies
+  gang:
+    description: Gang commandes
+    usage: /gang ou /g
+    aliases: [g]
+  drogue:
+    description: Drogue
+  datacyl:
+    description: Données des joueurs
+  destination:
+    description: GPS
+  votemaire:
+    description: Système élection
+  migrate:
+    description: Migration des données fichiers vers sql
+  tresorerie:
+    description: Système de trésorerie
+  apidata:
+    description: api
+    

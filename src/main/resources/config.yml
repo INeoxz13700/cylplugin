@@ -1,0 +1,3284 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Messages                       | #
+# +------------------------------------------------------+ #
+messages:
+  company-owner: '&cVous êtes le gérant de cette entreprise'
+  company-havent: '&cVous n''êtes pas dans une entreprise'
+  company-user-exist: '&cCe joueur est déjà dans votre entreprise'
+  company-less-permission: '&cVous n''avez pas le rang nécessaire pour éxécuter cette
+    commande'
+  company-request-invalid: '&cVous n''avez pas reçu d''invitation de ce joueur ou
+    cette entreprise'
+  company-not-contain-username: '&cCe joueur n''est pas dans votre entreprise'
+  command-invalid: '&cLa commande est invalide'
+  company-already-rank: '&cCe joueur à déjà ce rang d''attribué'
+  company-exist: '&cCette entreprise existe déjà'
+  company-owned: '&cVous avez déjà une entreprise'
+  company-left: '&9%player% &aà quitté l''entreprise'
+  company-join: '&9%player% &avient de rejoindre l''entreprise'
+  company-repartition-max: '&cLa repartition maximal en pourcentage est de : &d100%'
+  company-not-agriculture: '&cVous devez posséder une entreprise d''agriculture pour
+    effectuer cette action !'
+  company-not-elevage: '&cVous devez posséder une entreprise d''élevage pour effectuer
+    cette action !'
+  company-already-local: '&cVous avez déjà un Local !'
+  company-already-enclos: '&cVous avez déjà un Enclos !'
+  kicked-from-company: '&6Vous avez était virer de l''entreprise &f%company% &6par
+    &b%kicker%'
+  company-already-champs: '&cVous avez déjà un Champ !'
+  company-have-gang: '&cImpossible de créer une entreprise: Vous avez un gang !'
+  company-created: '&7[&9Entreprise&7] &6L''entreprise &b%company% &6vient d''être
+    crée!'
+  company-disband: '&aVous venez de dissoudre votre entreprise !'
+  company-unknown: '&cCette entreprise n''existe pas'
+  company-invite: '&7[&9Entreprise&7] &6%sender% &evous invite à rejoindre l''entreprise
+    &9%company%'
+  company-invite-sended: §aLa requête a bien été transmise à §d%receiver%
+  repartition-attribuated: '&aLa répartition a bien été appliquée'
+  empty-money-taked: '&cNous venons de vous retirer la somme de 100€'
+  mise: '&6Vous avez misé &e%mise%€. &6Attendez la fin du décompte...'
+  invalid-mise: '&6Le montant à miser doit être compris entre &e100€ &6et &e5000€'
+  already-mised: '&cVous avez déjà misé !'
+  game-not-started: '&cLe jeu n''a pas encore débuté.'
+  not-mise-system: '&cCe jeu ne dispose pas de système de mise.'
+  not-game-playing: '&cAucun jeu en cours...'
+  mise-or-take-random-value: '&6Vous avez &e%left% &6secondes pour miser. Au bout
+    de ces &e%left% &6secondes, une somme aléatoire vous sera retirée. &e/casino miser
+    <montant> &6ou &e/cas m <montant>'
+  left-time: '&6Temps restant: &e%left%'
+  location-not-casino: '&cVous n''êtes pas au Casino pour effectuer cette action !'
+  need-item: '&cVous n''avez pas les items nécessaires : %quantity% %itemname%'
+  chat-type-incorrect: Type de chat incorrect !
+  swtiched-default-chat: '&b[Chat] Vous venez de repasser au chat par défaut !'
+  already-in-canal: Vous êtes déjà dans ce canal !
+  user-invalid: '&cCe joueur n''existe pas ou n''est pas connecté'
+  enter-username: '&cVous devez entrer un nom d''utilisateur'
+  message-enter: '&cVous devez insérer un texte'
+  cylrp-not-permission: '&cVous n''avez pas la permission pour utiliser cette commande'
+  kicked-successfuly: '&c%victim% &aa été kick avec succès'
+  bad-number: '&cMauvais format du nombre'
+  not-necessary-money: '&cVous n''avez pas l''argent nécessaire : &b%money%'
+  inexistant-user: '&cCe joueur n''existe pas !'
+  gang-less-permission: '&cVous n''avez pas les privilèges pour effectuer cette action
+    !'
+  gang-player-not-gang: '&cCe joueur n''est pas dans le gang !'
+  gang-player-now-sous-chef: '&aCe joueur est désormais Sous-Chef !'
+  gang-havent: '&cVous n''avez pas de gang!'
+  gang-player-now-member: '&aCe joueur est désormais Membre !'
+  gang-create-successfuly: '&aGang créé avec succès !'
+  gang-bad-rank: '&cAction impossible: Vous devez être un rebel ou un terroriste !'
+  gang-have-company: '&cAction impossible: Vous avez une entreprise !'
+  gang-already-exist: '&cCe gang existe déjà !'
+  gang-already-in: '&cVous appartenez déjà à un gang !'
+  gang-player-already-in-gang: '&cCe joueur est déjà dans votre gang!'
+  gang-disbanded: '&aVous venez de dissoudre votre gang !'
+  gang-player-kicked: '&aCe joueur vient de se faire kick !'
+  gang-player-not-in: '&cCe joueur ne fait pas parti du gang !'
+  gang-not-appartenance: '&aVous n''appartenez plus à aucun gang !'
+  gang-cannot-quit: '&cVous ne pouvez pas quitter votre gang !'
+  gang-joined: '&aVous venez de rejoindre le gang &c%gang%'
+  gang-not-request: '&cVous n''avez reçu aucune invitation !'
+  unknown-request: '&cCette invitation n''existe pas !'
+  jobs-death-processus: '&cProcessus de mort activé !'
+  jobs-not-reanimation: '&4Vous n''êtes pas en état de réanimation pour effectuer
+    cette action !'
+  jobs-sended-points: '&aVous venez d''envoyer des points au joueur !'
+  jobs-cannot-send-points: '&cVous ne pouvez pas envoyer de points à ce joueur en
+    raison de son métier !'
+  jobs-points-removed: '&aVous venez de retirer des points au joueur !'
+  jobs-cannot-remove-points: Vous ne pouvez pas retirer de points à ce joueur en raison de son métier !
+  atm-enough-tickets: '&cVous ne possèdez pas les billets nécessaire dans votre inventaire'
+  atm-take-successfuly: '&aL''argent a été retiré avec succès de votre compte bancaire'
+  atm-put-successfuly: '&aL''argent a été ajouté avec succès dans votre compte bancaire'
+  atm-enough-money: '&cVous ne possèdez pas l''argent nécessaire dans votre compte
+    bancaire'
+prefix: '&c[&eCYLRP&c]'
+timeBeforeChangeJob: 600
+jobs:
+  assemblee:
+    display-name: §7Assemblée Nationale
+    clothes:
+      Tenue pro:
+        Helmets: 0
+        Chestplates: 7189
+        leggings: 7164
+        boots: 0
+        default: true
+        grades:
+        - Garde
+      Tenue pro + gilet:
+        Helmets: 0
+        Chestplates: 7189
+        leggings: 7164
+        boots: 7560
+        default: true
+        grades:
+        - Garde
+    grades:
+      Garde:
+        color: BLUE
+        points: 0
+        item-rank: 0
+      Juge:
+        color: BLUE
+        points: 100000
+        item-rank: 0
+        gettable: false
+      Depute:
+        color: BLUE
+        points: 300000
+        item-rank: 0
+        gettable: false
+      Ministre:
+        color: BLUE
+        points: 5000000
+        item-rank: 0
+        gettable: false
+      VicePresident:
+        color: BLUE
+        points: 10000000
+        item-rank: 0
+        hg: true
+        gettable: false
+      President:
+        color: BLUE
+        points: 15000000
+        item-rank: 0
+        hg: true
+        gettable: false
+  maire:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 6707
+        leggings: 6729
+        boots: 6652
+    display-name: §7Maire
+  maireadjoint:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 6707
+        leggings: 6729
+        boots: 6652
+    display-name: §7Maire-Adjoint
+  chefgarde:
+    clothes:
+      Tenue ParBalle:
+        Helmets: 0
+        Chestplates: 7573
+        leggings: 7578
+        boots: 7571
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 7573
+        leggings: 7578
+        boots: 0
+        default: true
+    display-name: §7ChefGarde
+  psychopathe:
+    item-id: 6709
+    display-name: §b[VIP+] §7Psychopathe
+    description:
+    - §4Vous aimez la torture ?
+    - §4Faites-vous plaisir à torturer vos ennemis,
+    - §4à les dresser avec vos techniques de torture
+  bac:
+    clothes:
+      Infiltré Terroriste Mask:
+        Helmets: 6693
+        Chestplates: 7189
+        leggings: 7164
+        boots: 0
+      Infiltré Terroriste:
+        Helmets: 0
+        Chestplates: 7189
+        leggings: 7164
+        boots: 0
+      Infiltré Rebelle Mask:
+        Helmets: 7248
+        Chestplates: 7627
+        leggings: 7674
+        boots: 7683
+      Infiltré Rebelle:
+        Helmets: 0
+        Chestplates: 7627
+        leggings: 7674
+        boots: 7683
+      Tenue Bandeau:
+        Helmets: 7246
+        Chestplates: 7627
+        leggings: 7674
+        boots: 7683
+        default: true
+      Tenue Intervention (Officier):
+        Helmets: 7246
+        Chestplates: 7204
+        leggings: 7159
+        boots: 7213
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue Intervention (Sous-Officier):
+        Helmets: 7246
+        Chestplates: 0
+        leggings: 7159
+        boots: 7213
+      Tenue Intervention (Central nucléaire):
+        Helmets: 7306
+        Chestplates: 0
+        leggings: 7159
+        boots: 7213
+      Tenue Bureau (Sous-Officier):
+        Helmets: 7246
+        Chestplates: 0
+        leggings: 7159
+        boots: 0
+      Tenue Bureau (Officier):
+        Helmets: 7246
+        Chestplates: 7204
+        leggings: 7245
+        boots: 0
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue Mine:
+        Helmets: 7306
+        Chestplates: 7204
+        leggings: 7245
+        boots: 7208
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue Entraînement:
+        Helmets: 7246
+        Chestplates: 0
+        leggings: 7626
+        boots: 7651
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue Bandeau discret (Sous-Officier):
+        Helmets: 7246
+        Chestplates: 7645
+        leggings: 7675
+        boots: 0
+      Tenue de cérémonie (Officier):
+        Helmets: 7241
+        Chestplates: 0
+        leggings: 7151
+        boots: 0
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue de cérémonie (Sous-Officier):
+        Helmets: 7246
+        Chestplates: 0
+        leggings: 7238
+        boots: 0
+      Tenue intervention BRI:
+        Helmets: 7589
+        Chestplates: 7204
+        leggings: 7159
+        boots: 7208
+        grades:
+        - Brigadier
+        - Brigadier-Chef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue intervention BRI (cagoule):
+        Helmets: 7579
+        Chestplates: 7204
+        leggings: 7159
+        boots: 7208
+        grades:
+        - Brigadier
+        - Brigadier-Chef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+      Tenue infiltration rebelle (cagoulé) (Sous-Officier):
+        Helmets: 6723
+        Chestplates: 7647
+        leggings: 7671
+        boots: 0
+      Tenue infiltration rebelle (non-cagoulé) (Sous-Officier):
+        Helmets: 0
+        Chestplates: 7647
+        leggings: 7671
+        boots: 0
+      Tenue infiltration terroriste (cagoulé) (Sous-Officier):
+        Helmets: 6693
+        Chestplates: 7616
+        leggings: 7626
+        boots: 0
+      Tenue infiltration terroriste (non-cagoulé) (Sous-Officier):
+        Helmets: 0
+        Chestplates: 7616
+        leggings: 7626
+        boots: 0
+    item-id: 6639
+    display-name: §3BAC
+    description:
+    - §6Honorer votre patrie
+    - §6Avec vos talents d'infiltration
+    - §6Arrêtez les grands narcotrafiquants de
+    - §6l'archipel et démantelez leurs laboratoires
+    - §6 de confection de drogues
+    grades:
+      Agent:
+        color: GOLD
+        points: 0
+      Brigadier:
+        color: GOLD
+        points: 100000000
+        gettable: false
+      Brigadier-Chef:
+        color: GOLD
+        points: 150000000
+        gettable: false
+      Lieutenant:
+        color: GOLD
+        points: 250000000
+        gettable: false
+      Capitaine:
+        color: GOLD
+        points: 300000000
+        gettable: false
+      Commandant:
+        color: GOLD
+        points: 400000000
+        gettable: false
+        hg: true
+  garde:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 7573
+        leggings: 7578
+        boots: 0
+        default: true
+      Tenue intervention:
+        Helmets: 0
+        Chestplates: 7573
+        leggings: 7578
+        boots: 7571
+        default: false
+    display-name: §7Garde
+  policier:
+    clothes:
+      Tenue de base MancheCourte:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7214
+        boots: 0
+        default: true
+      Tenue base MancheLongue:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7159
+        boots: 0
+        default: false
+      Tenue de base MancheCourteGJ:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7214
+        boots: 7143
+        default: false
+        equipGrade: false
+      Tenue de base MancheLongueGJ:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7159
+        boots: 7143
+        default: false
+        equipGrade: false
+      Tenue de base MancheCourtePareBalle:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7214
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue intervention central nucléaire:
+        Helmets: 7306
+        Chestplates: 0
+        leggings: 7159
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de base MancheLonguePareBalle:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7159
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de base VesteNoir:
+        Helmets: 7209
+        Chestplates: 7204
+        leggings: 7214
+        boots: 0
+        default: false
+        grades:
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de base CeremoniePetit:
+        Helmets: 7181
+        Chestplates: 0
+        leggings: 7238
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de base CeremonieGrand:
+        Helmets: 7196
+        Chestplates: 0
+        leggings: 7238
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de base HGPetit:
+        Helmets: 7161
+        Chestplates: 0
+        leggings: 7151
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - Commissaire
+        - Commissaire-General
+      Tenue de base HGGrand:
+        Helmets: 7241
+        Chestplates: 0
+        leggings: 7151
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - Commissaire
+        - Commissaire-General
+      Tenue 1bis:
+        Helmets: 7015
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue 2:
+        Helmets: 7015
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7143
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue 3:
+        Helmets: 7201
+        Chestplates: 7204
+        leggings: 7179
+        boots: 7143
+        default: false
+        equipGrade: false
+        grades:
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue 5 manches courtes:
+        Helmets: 7201
+        Chestplates: 0
+        leggings: 7179
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue 5 manches longues:
+        Helmets: 7201
+        Chestplates: 0
+        leggings: 7245
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue 6:
+        Helmets: 7015
+        Chestplates: 6953
+        leggings: 6981
+        boots: 0
+        default: false
+        grades:
+        - GardienDeLaPaix
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de cérémonie:
+        Helmets: 0
+        Chestplates: 7166
+        leggings: 7179
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de cérémonie (avec médaille):
+        Helmets: 7241
+        Chestplates: 0
+        leggings: 7151
+        boots: 7194
+        default: false
+        equipGrade: false
+        grades:
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue brigadier-c (avec calo):
+        Helmets: 7209
+        Chestplates: 7204
+        leggings: 7179
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue brigadier-c (sans calo):
+        Helmets: 0
+        Chestplates: 7204
+        leggings: 7214
+        boots: 7208
+        default: false
+        grades:
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue brigadier (sans calo):
+        Helmets: 0
+        Chestplates: 7204
+        leggings: 7214
+        boots: 0
+        default: false
+        grades:
+        - Brigadier
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de gardien paix (manche long):
+        Helmets: 7209
+        Chestplates: 0
+        leggings: 7245
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue de gardien paix (manche courte):
+        Helmets: 7209
+        Chestplates: 0
+        leggings: 7179
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (sans casque):
+        Helmets: 0
+        Chestplates: 6953
+        leggings: 6981
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (sans casque + GB):
+        Helmets: 0
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (sans casque + GJ):
+        Helmets: 0
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7143
+        default: false
+        equipGrade: false
+        grades:
+        - GardienDeLaPaix
+        - BrigadierChef
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (avec calo):
+        Helmets: 7209
+        Chestplates: 6953
+        leggings: 6981
+        boots: 0
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (avec calo + GB):
+        Helmets: 7209
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7208
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+      Tenue BMO (avec calo + GJ):
+        Helmets: 7209
+        Chestplates: 6953
+        leggings: 6981
+        boots: 7143
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Commissaire
+        - Commissaire-General
+    item-id: 6679
+    display-name: §9Policier
+    description:
+    - §cVotre objectif est de maintenir la
+    - §csécurité en ville pour cela, vous devrez
+    - §cSuivre parfaitement les ordres de vos
+    - §csupérieurs, leur prouver votre efficacité.
+    grades:
+      AdjointDeSecurite:
+        color: BLUE
+        points: 0
+        item-rank: 7221
+      GardienDeLaPaix:
+        color: BLUE
+        points: 10000000
+        item-rank: 7175
+        gettable: false
+      Brigadier:
+        color: BLUE
+        points: 20000000
+        item-rank: 7162
+        gettable: false
+      BrigadierChef:
+        color: BLUE
+        points: 30000000
+        item-rank: 7225
+        gettable: false
+      Lieutenant:
+        color: BLUE
+        points: 40000000
+        item-rank: 7182
+        gettable: false
+      Capitaine:
+        color: BLUE
+        points: 50000000
+        item-rank: 7177
+        gettable: false
+      Commandant:
+        color: GOLD
+        points: 70000000
+        item-rank: 7235
+        gettable: false
+      Commissaire:
+        color: GOLD
+        points: 80000000
+        item-rank: 7187
+        gettable: false
+        hg: true
+      Commissaire-General:
+        color: GOLD
+        points: 100000000
+        item-rank: 7211
+        gettable: false
+        hg: true
+  gendarme:
+    clothes:
+      Polo bleu - court:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7072
+        boots: 0
+        default: true
+      Polo bleu - long:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7028
+        boots: 0
+        default: false
+      Gilet Jaune & Polo - Court:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7072
+        boots: 7019
+        default: false
+        equipGrade: false
+      Gilet Jaune & Polo - Long:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7028
+        boots: 7019
+        default: false
+        equipGrade: false
+      GHV & Polo & Casquette petite:
+        Helmets: 7105
+        Chestplates: 0
+        leggings: 7072
+        boots: 7019
+        default: false
+        equipGrade: false
+      GHV & Polo & Casquette grande:
+        Helmets: 7081
+        Chestplates: 0
+        leggings: 7072
+        boots: 7019
+        default: false
+        equipGrade: false
+      Tenue intervention central nucléaire:
+        Helmets: 7306
+        Chestplates: 7095
+        leggings: 7028
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      GPB & Polo court & Calot petit:
+        Helmets: 7086
+        Chestplates: 0
+        leggings: 7072
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      GPB & Polo Court & Calot Grand:
+        Helmets: 7052
+        Chestplates: 0
+        leggings: 7072
+        boots: 7107
+        default: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      GBP & Polo court:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7072
+        boots: 7107
+        default: false
+        equipGrade: false
+      GPB & Polo long:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7028
+        boots: 7107
+        default: false
+        equipGrade: false
+      Veste Type 1:
+        Helmets: 0
+        Chestplates: 7095
+        leggings: 7028
+        boots: 0
+        default: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7095
+        leggings: 7028
+        boots: 0
+        default: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7095
+        leggings: 7028
+        boots: 0
+        default: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & GHV & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7095
+        leggings: 7028
+        boots: 7019
+        default: false
+        equipGrade: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & GHV & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7095
+        leggings: 7028
+        boots: 7019
+        default: false
+        equipGrade: false
+        grades:
+        - Gendarme
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & GPB & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7095
+        leggings: 7028
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 1 & GPB & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7095
+        leggings: 7028
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2:
+        Helmets: 0
+        Chestplates: 7091
+        leggings: 7072
+        boots: 0
+        default: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7091
+        leggings: 7072
+        boots: 0
+        default: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7091
+        leggings: 7072
+        boots: 0
+        default: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & GHV & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7091
+        leggings: 7072
+        boots: 7019
+        default: false
+        equipGrade: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & GHV & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7091
+        leggings: 7072
+        boots: 7019
+        default: false
+        equipGrade: false
+        grades:
+        - MarechalDesLogisChef
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & GPB & Calot Petit:
+        Helmets: 7086
+        Chestplates: 7091
+        leggings: 7072
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Veste Type 2 & GPB & Calot Grand:
+        Helmets: 7052
+        Chestplates: 7091
+        leggings: 7072
+        boots: 7107
+        default: false
+        equipGrade: false
+        grades:
+        - Adjudant
+        - AdjudantChef
+        - Major
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Tenue Motard - Avec casque:
+        Helmets: 6961
+        Chestplates: 6938
+        leggings: 6963
+        boots: 0
+        default: false
+      Tenue Motard - Sans casque:
+        Helmets: 0
+        Chestplates: 6938
+        leggings: 6963
+        boots: 0
+        default: false
+      Tenue de cérémonie - sans Kepi:
+        Helmets: 0
+        Chestplates: 7042
+        leggings: 0
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Tenue de cérémonie - Kepi petit:
+        Helmets: 7046
+        Chestplates: 7042
+        leggings: 0
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Tenue de cérémonie - Kepi grand:
+        Helmets: 7023
+        Chestplates: 7042
+        leggings: 0
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Aspirant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+    item-id: 7697
+    display-name: §1Gendarme
+    description:
+    - §cVotre objectif est de maintenir la
+    - §csécurité en ville pour cela, vous devrez
+    - §cSuivre parfaitement les ordres de vos
+    - §csupérieurs, leur prouver votre efficacité.
+    grades:
+      MarechalDesLogis:
+        color: BLUE
+        points: 0
+        item-rank: 7101
+      Gendarme:
+        color: BLUE
+        points: 10000000
+        item-rank: 7031
+        gettable: false
+      MarechalDesLogisChef:
+        color: BLUE
+        points: 20000000
+        item-rank: 7097
+        gettable: false
+      Adjudant:
+        color: BLUE
+        points: 30000000
+        item-rank: 7083
+        gettable: false
+      AdjudantChef:
+        color: BLUE
+        points: 40000000
+        item-rank: 7034
+        gettable: false
+      Major:
+        color: BLUE
+        points: 50000000
+        item-rank: 7057
+        gettable: false
+      Aspirant:
+        color: BLUE
+        points: 70000000
+        item-rank: 7055
+        gettable: false
+      Lieutenant:
+        color: BLUE
+        points: 80000000
+        item-rank: 7022
+        gettable: false
+      Capitaine:
+        color: GOLD
+        points: 100000000
+        item-rank: 7085
+        gettable: false
+        hg: true
+      ChefEscadron:
+        color: GOLD
+        points: 140000000
+        item-rank: 7061
+        gettable: false
+        hg: true
+  civile:
+    item-id: 6690
+    display-name: §8Civile
+  gign:
+    clothes:
+      Uniforme simple:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7585
+        boots: 0
+        default: true
+      Uniforme avec cagoule:
+        Helmets: 7579
+        Chestplates: 0
+        leggings: 7585
+        boots: 0
+        default: false
+      NBC:
+        Helmets: 7306
+        Chestplates: 7591
+        leggings: 7585
+        boots: 0
+        default: false
+      Uniforme gilet par balles léger:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7585
+        boots: 7107
+        default: false
+        equipGrade: false
+      Uniforme gilet par balles léger cagoule:
+        Helmets: 7579
+        Chestplates: 0
+        leggings: 7585
+        boots: 7107
+        default: false
+        equipGrade: false
+      Uniforme gilet par balles casque:
+        Helmets: 7589
+        Chestplates: 0
+        leggings: 7585
+        boots: 7107
+        default: false
+        equipGrade: false
+      Uniforme gilet par balles lourd:
+        Helmets: 0
+        Chestplates: 7591
+        leggings: 7585
+        boots: 0
+        default: false
+      Uniforme gilet par balles lourd cagoule:
+        Helmets: 7579
+        Chestplates: 7591
+        leggings: 7585
+        boots: 0
+        default: false
+      Uniforme gilet par balles lourd casque:
+        Helmets: 7589
+        Chestplates: 7591
+        leggings: 7585
+        boots: 0
+        default: false
+      Uniforme de cérémonie:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7585
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Sous-Lieutenant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Uniforme de cérémonie kepi grand:
+        Helmets: 7023
+        Chestplates: 0
+        leggings: 7585
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Sous-Lieutenant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Sous-Lieutenant
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Uniforme de cérémonie kepi petit:
+        Helmets: 7046
+        Chestplates: 0
+        leggings: 7585
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - ChefEscadron
+      Vareuse de gendarmerie:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7042
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Capitaine
+        - ChefEscadron
+      Vareuse de gendarmerie kepi grand:
+        Helmets: 7023
+        Chestplates: 0
+        leggings: 7042
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Capitaine
+        - ChefEscadron
+      Vareuse de gendarmerie kepi petit:
+        Helmets: 7046
+        Chestplates: 0
+        leggings: 7042
+        boots: 7051
+        default: false
+        equipGrade: false
+        grades:
+        - Capitaine
+        - ChefEscadron
+      Tenue tireur élite:
+        Helmets: 7579
+        Chestplates: 7591
+        leggings: 7576
+        boots: 0
+        default: false
+      Tenue de cérémonie:
+        Helmets: 7579
+        Chestplates: 0
+        leggings: 7585
+        boots: 7051
+        default: false
+    item-id: 6641
+    display-name: §b[VIP] §3Gign
+    description:
+    - §cVotre rôle est aussi important que celle
+    - §cdes policiers votre objectif, est de
+    - §cprotéger la ville et les citoyens lors
+    - §cdes assaults, intervenir lors des prises d'otages.
+    grades:
+      MarechalDesLogis:
+        color: BLUE
+        points: 0
+        item-rank: 7590
+      Gendarme:
+        color: BLUE
+        points: 10000000
+        item-rank: 7583
+        gettable: false
+      MarechalDesLogisChef:
+        color: BLUE
+        points: 20000000
+        item-rank: 7581
+        gettable: false
+      Adjudant:
+        color: BLUE
+        points: 30000000
+        item-rank: 7584
+        gettable: false
+      AdjudantChef:
+        color: BLUE
+        points: 40000000
+        item-rank: 7587
+        gettable: false
+      Sous-Lieutenant:
+        color: BLUE
+        points: 50000000
+        item-rank: 7588
+        gettable: false
+      Lieutenant:
+        color: GOLD
+        points: 70000000
+        item-rank: 7586
+        gettable: false
+      Capitaine:
+        color: GOLD
+        points: 80000000
+        item-rank: 7580
+        gettable: false
+        hg: true
+      ChefEscadron:
+        color: GOLD
+        points: 100000000
+        item-rank: 7582
+        gettable: false
+        hg: true
+  militaire:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7576
+        boots: 0
+        default: true
+      Tenue intervention:
+        Helmets: 7574
+        Chestplates: 7577
+        leggings: 7576
+        boots: 0
+        default: false
+      Tenue intervention (central nucléaire):
+        Helmets: 7306
+        Chestplates: 7577
+        leggings: 7576
+        boots: 0
+        default: false
+      Tenue HGGrand:
+        Helmets: 7180
+        Chestplates: 7577
+        leggings: 7576
+        boots: 0
+        equipGrade: true
+        grades:
+        - General-Corps-Armee
+        - General-Armee
+      Tenue HGPetit:
+        Helmets: 7176
+        Chestplates: 7577
+        leggings: 7576
+        boots: 0
+        equipGrade: true
+        grades:
+        - General-Corps-Armee
+        - General-Armee
+      Tenue Medaille1:
+        Helmets: 7180
+        Chestplates: 0
+        leggings: 7576
+        boots: 7167
+        equipGrade: true
+        grades:
+        - General-Corps-Armee
+        - General-Armee
+      Tenue Medaille2:
+        Helmets: 7180
+        Chestplates: 0
+        leggings: 7576
+        boots: 7098
+        equipGrade: true
+        grades:
+        - General-Corps-Armee
+        - General-Armee
+      Tenue de cérémonie:
+        Helmets: 7180
+        Chestplates: 0
+        leggings: 7151
+        boots: 7102
+        grades:
+        - Colonel
+        - General-Corps-Armee
+        - General-Armee
+      Tenue entraînement (formation - léger):
+        Helmets: 0
+        Chestplates: 0
+        leggings: 7576
+        boots: 7571
+      Tenue Commando:
+        Helmets: 7579
+        Chestplates: 7577
+        leggings: 7576
+        boots: 0
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Colonel
+        - General-Corps-Armee
+        - General-Armee
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - Colonel
+        - General-Corps-Armee
+        - General-Armee
+    item-id: 6699
+    display-name: §b[VIP+] §8Militaire
+    description:
+    - §cVotre rôle est de sacrifier votre vie pour les citoyens,
+    - §cvous ne vivrez que pour leur donner une vie paisible
+    - §cvous affronterez alors les terroristes et rebelles dans
+    - §cles frontières de la ville.
+    grades:
+      Soldat:
+        color: BLUE
+        points: 0
+        item-rank: 7594
+      Caporal:
+        color: BLUE
+        points: 10000000
+        item-rank: 7598
+        gettable: false
+      Sergent:
+        color: BLUE
+        points: 20000000
+        item-rank: 7595
+        gettable: false
+      Lieutenant:
+        color: BLUE
+        points: 30000000
+        item-rank: 7592
+        gettable: false
+      Capitaine:
+        color: BLUE
+        points: 40000000
+        item-rank: 7593
+        gettable: false
+      Commandant:
+        color: BLUE
+        points: 50000000
+        item-rank: 7599
+        gettable: false
+      Colonel:
+        color: GOLD
+        points: 70000000
+        item-rank: 7597
+        gettable: false
+      General-Corps-Armee:
+        color: GOLD
+        points: 80000000
+        item-rank: 8247
+        gettable: false
+        hg: true
+      General-Armee:
+        color: GOLD
+        points: 100000000
+        item-rank: 7596
+        gettable: false
+        hg: true
+  voleur:
+    item-id: 6689
+    display-name: §7Voleur
+    description:
+    - §cVotre rôle est de voler les joueurs,
+    - §ccambrioler les maisons,
+    - §cattention aux pièges !
+  rebelle:
+    item-id: 6649
+    display-name: §7Rebelle
+    description:
+    - §cVous affronterez les militaires,
+    - §cainsi les douaniers pour infiltrer
+    - §cla ville d'OstrovCity
+    - §cFaire des braquages de banque,
+    - §cde bijouterie et prendre en otage
+    - §cdes citoyens.
+    - §cVous pourrez de plus créer votre gang
+    - §cafin de vous enrichir.
+  terroriste:
+    item-id: 6684
+    display-name: §b[VIP+] §7Terroriste
+    description:
+    - §cVotre rôle est de terroriser les
+    - §ccitoyens, affrontez les forces de
+    - §cl'ordre vous pouvez de plus créer votre gang,
+    - §csacrifiez votre vie en faisant des attentats.
+  cuisinier:
+    clothes:
+      Tenue de base:
+        Helmets: 6678
+        Chestplates: 6665
+        leggings: 6676
+        boots: 6664
+    item-id: 6694
+    display-name: §6Cuisinier
+    description:
+    - §cVous aimez cuisiner ? Alors ce métier est fait
+    - §cpour vous cuisinier et faites vous de l'argent
+    - §cen vendant
+    - §cvos délicieux plats !
+  chimiste:
+    clothes:
+      Tenue de base:
+        Helmets: 6731
+        Chestplates: 6711
+        leggings: 6712
+        boots: 6650
+    item-id: 6648
+    display-name: §b[VIP] §5Chimiste
+    description:
+    - §cVotre rôle est de fabriquer des potions
+    - §cpour pouvoir créer des bombes, grenades.
+    - §cVous pouvez coopérer avec les
+    - §cterroristes/rebelles afin de leur vendre
+    - §cvos produits.
+  hacker:
+    item-id: 6726
+    display-name: §7Hackeur
+    description:
+    - §cVotre rôle est de trouvez les failles
+    - §cdans les atm afin de vous faire de l'argent.
+  medecin:
+    clothes:
+      Tenue mortuaire:
+        Helmets: 0
+        Chestplates: 6711
+        leggings: 7229
+        boots: 0
+        default: false
+      Tenue refleteur:
+        Helmets: 0
+        Chestplates: 8106
+        leggings: 8111
+        boots: 0
+        default: false
+      Tenue de réanimation:
+        Helmets: 0
+        Chestplates: 8113
+        leggings: 8114
+        boots: 0
+        default: true
+      Tenue refleteur beret:
+        Helmets: 7200
+        Chestplates: 8106
+        leggings: 8111
+        boots: 0
+        default: false
+        grades:
+        - SousDirecteur
+        - Directeur
+      Tenue réanimation beret:
+        Helmets: 7200
+        Chestplates: 8113
+        leggings: 8114
+        boots: 0
+        default: false
+        grades:
+        - SousDirecteur
+        - Directeur
+    item-id: 6716
+    display-name: §7Medecin
+    description:
+    - §cVotre rôle est de soigner les citoyens
+    - §Cvous pouvez ainsi coopérer avec
+    - §cles forces de l'ordre.
+    grades:
+      Réanimateur:
+        color: RED
+        points: 0
+        item-rank: 8101
+      Aidesoignant:
+        color: RED
+        points: 10000000
+        item-rank: 8117
+        gettable: false
+      Infirmier:
+        color: RED
+        points: 20000000
+        item-rank: 8103
+        gettable: false
+      InfirmierCoordinateur:
+        color: RED
+        points: 30000000
+        item-rank: 8112
+        gettable: false
+      ChefDeService:
+        color: RED
+        points: 40000000
+        item-rank: 8107
+        gettable: false
+      SousDirecteur:
+        color: RED
+        points: 80000000
+        item-rank: 8108
+        gettable: false
+        hg: true
+      Directeur:
+        color: RED
+        points: 100000000
+        item-rank: 8116
+        gettable: false
+        hg: true
+  taxi:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 4179
+        leggings: 4180
+        boots: 4186
+        default: true
+    item-id: 6733
+    display-name: §eTaxi
+    description:
+    - §cVotre rôle est transporter les citoyens
+    - §cafin de vous faire de l'argent.
+  douanier:
+    clothes:
+      Tenue de base:
+        Helmets: 6734
+        Chestplates: 6658
+        leggings: 6703
+        boots: 0
+        default: true
+      Tenue HGpetit:
+        Helmets: 7228
+        Chestplates: 6658
+        leggings: 6703
+        boots: 0
+        equipGrade: true
+        grades:
+        - DirecteurDesServices
+        - DirecteurPrincipal
+      Tenue HGGrand:
+        Helmets: 7207
+        Chestplates: 6658
+        leggings: 6703
+        boots: 0
+        equipGrade: true
+        grades:
+        - DirecteurDesServices
+        - DirecteurPrincipal
+    item-id: 6722
+    display-name: §bDouanier
+    description:
+    - §cVotre rôle est est très importante vous
+    - §cdevrez surveiller et défendre les
+    - §cfrontières afin de maintenir
+    - §cla sécurité afin de s'assurer qu'aucun
+    - §cmenace est présente, il est important
+    - §cde fouiller chaques personne et de vérifier
+    - §cleurs identité.
+    grades:
+      AgentDeConstatation:
+        color: BLUE
+        points: 0
+        item-rank: 6907
+      Controleur:
+        color: BLUE
+        points: 10000000
+        item-rank: 6912
+        gettable: false
+      Inspecteur:
+        color: BLUE
+        points: 20000000
+        item-rank: 6911
+        gettable: false
+      InspecteurRegionnal:
+        color: BLUE
+        points: 30000000
+        item-rank: 6908
+        gettable: false
+      InspecteurPrincipal:
+        color: BLUE
+        points: 100000000
+        item-rank: 6913
+        gettable: false
+      DirecteurDesServices:
+        color: BLUE
+        points: 150000000
+        item-rank: 6909
+        gettable: false
+        hg: true
+      DirecteurPrincipal:
+        color: BLUE
+        points: 200000000
+        item-rank: 6910
+        gettable: false
+        hg: true
+    regions:
+    - douane1
+  armurier:
+    item-id: 6638
+    display-name: §dArmurier
+    description:
+    - §cVotre rôle est de vendre des armes,
+    - §cet des munitions.
+    - §cVous pouvez à tous moment coopérer
+    - §cavec les rebelles/terroristes.
+    grades:
+      Armurier:
+        color: BLUE
+        points: 0
+        item-rank: 0
+      Sous-Armurier-en-chef:
+        color: BLUE
+        points: 10000000
+        item-rank: 0
+        gettable: false
+      Armurier-en-chef:
+        color: BLUE
+        points: 20000000
+        item-rank: 0
+        gettable: false
+      Co-Gérant:
+        color: BLUE
+        points: 30000000
+        item-rank: 0
+        gettable: false
+        hg: true
+      Gérant:
+        color: BLUE
+        points: 40000000
+        item-rank: 0
+        gettable: false
+        hg: true
+  pompier:
+    clothes:
+      Tenue de base:
+        Helmets: 0
+        Chestplates: 6728
+        leggings: 6721
+        boots: 0
+        default: true
+      Tenue intervention:
+        Helmets: 7937
+        Chestplates: 7930
+        leggings: 7939
+        boots: 0
+        default: false
+        equipGrade: false
+      Tenue ari:
+        Helmets: 7938
+        Chestplates: 7930
+        leggings: 7939
+        boots: 0
+        default: false
+        equipGrade: false
+      Beret grand taille:
+        Helmets: 7200
+        Chestplates: 6728
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Beret petit taille:
+        Helmets: 7185
+        Chestplates: 6728
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de cérémonie Petit Képi:
+        Helmets: 7025
+        Chestplates: 0
+        leggings: 7021
+        boots: 0
+        default: false
+        grades:
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de Pilote:
+        Helmets: 8291
+        Chestplates: 0
+        leggings: 0
+        boots: 8294
+        default: false
+        equipGrade: false
+        grades:
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de cérémonie Grand Képi:
+        Helmets: 7082
+        Chestplates: 0
+        leggings: 7021
+        boots: 0
+        default: false
+        grades:
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de cérémonie Petit Beret:
+        Helmets: 7185
+        Chestplates: 0
+        leggings: 7021
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de cérémonie Grand Beret:
+        Helmets: 7200
+        Chestplates: 0
+        leggings: 7021
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue Cérémonie SP Grand Képi:
+        Helmets: 7082
+        Chestplates: 6728
+        leggings: 6721
+        boots: 0
+        default: false
+      Tenue Cérémonie SP Petit Képi:
+        Helmets: 7025
+        Chestplates: 6728
+        leggings: 6721
+        boots: 0
+        default: false
+      Tenue d'intervention sans casque:
+        Helmets: 0
+        Chestplates: 7930
+        leggings: 7939
+        boots: 0
+        default: false
+        equipGrade: false
+      Tenue d'intervention Beret grand taille:
+        Helmets: 7200
+        Chestplates: 7930
+        leggings: 7939
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention Beret petit taille:
+        Helmets: 7185
+        Chestplates: 7930
+        leggings: 7939
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention sans rien:
+        Helmets: 0
+        Chestplates: 7930
+        leggings: 0
+        boots: 0
+        default: false
+      Tenue d'intervention sans rien Beret grand taille:
+        Helmets: 7200
+        Chestplates: 7930
+        leggings: 0
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention sans rien Beret petit taille:
+        Helmets: 7185
+        Chestplates: 7930
+        leggings: 0
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention NRBC sans rien:
+        Helmets: 0
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention NRBC avec ARI:
+        Helmets: 7938
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention central nucléaire:
+        Helmets: 7306
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention NRBC avec casque:
+        Helmets: 6666
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention NRBC avec Grand Beret:
+        Helmets: 7200
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue d'intervention NRBC avec Petit Beret:
+        Helmets: 7185
+        Chestplates: 6688
+        leggings: 6656
+        boots: 6700
+        default: false
+        equipGrade: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue Médecin Pompier:
+        Helmets: 0
+        Chestplates: 6695
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue Médecin Pompier avec Petit Beret:
+        Helmets: 7185
+        Chestplates: 6695
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue Médecin Pompier avec Grand Beret:
+        Helmets: 7200
+        Chestplates: 6695
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue SSSM Pompier:
+        Helmets: 0
+        Chestplates: 6711
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Sapeur1reClasse
+        - Caporal
+        - CaporalChef
+        - Sergent
+        - SergentChef
+        - Adjudant
+        - Adjudant Chef
+        - Major
+        - Lieutenant
+        - Capitaine
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue SSSM Pompier avec Petit Beret:
+        Helmets: 7185
+        Chestplates: 6711
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue SSSM Pompier avec Grand Beret:
+        Helmets: 7200
+        Chestplates: 6711
+        leggings: 6721
+        boots: 0
+        default: false
+        grades:
+        - Commandant
+        - LieutenantColonel
+        - Colonel
+        - ControleurGeneral
+        - ControleurGeneralDetatMajor
+      Tenue de Sport:
+        Helmets: 6925
+        Chestplates: 0
+        leggings: 0
+        boots: 6702
+        default: false
+        equipGrade: false
+    item-id: 6639
+    display-name: §cPompier
+    description:
+    - §cVotre rôle est de protéger la ville
+    - §ccontre les flammes
+    - §cprovenant de catastrophe naturel.
+    grades:
+      Sapeur:
+        color: RED
+        points: 0
+      Sapeur1reClasse:
+        color: RED
+        points: 10000000
+        item-rank: 6810
+        gettable: false
+      Caporal:
+        color: RED
+        points: 20000000
+        item-rank: 6809
+        gettable: false
+      CaporalChef:
+        color: RED
+        points: 30000000
+        item-rank: 6812
+        gettable: false
+      Sergent:
+        color: RED
+        points: 40000000
+        item-rank: 6817
+        gettable: false
+      SergentChef:
+        color: RED
+        points: 50000000
+        item-rank: 6808
+        gettable: false
+      Adjudant:
+        color: RED
+        points: 60000000
+        item-rank: 6816
+        gettable: false
+      AdjudantChef:
+        color: RED
+        points: 70000000
+        item-rank: 6805
+        gettable: false
+      Major:
+        color: RED
+        points: 80000000
+        item-rank: 6806
+        gettable: false
+      Lieutenant:
+        color: RED
+        points: 90000000
+        item-rank: 6807
+        gettable: false
+      Capitaine:
+        color: RED
+        points: 100000000
+        item-rank: 6814
+        gettable: false
+      Commandant:
+        color: RED
+        points: 200000000
+        item-rank: 6811
+        gettable: false
+        hg: true
+      LieutenantColonel:
+        color: RED
+        points: 250000000
+        item-rank: 6813
+        gettable: false
+        hg: true
+      Colonel:
+        color: RED
+        points: 300000000
+        item-rank: 6815
+        gettable: false
+        hg: true
+      ControleurGeneral:
+        color: RED
+        points: 10000000000
+        item-rank: 7094
+        gettable: false
+        hg: true
+      ControleurGeneralDetatMajor:
+        color: RED
+        points: 15000000000
+        item-rank: 7063
+        gettable: false
+        hg: true
+tickets:
+  1dollars:
+    id: 7569
+    byte: 0
+  2dollars:
+    id: 7570
+    byte: 0
+  5dollars:
+    id: 5477
+    byte: 0
+  10dollars:
+    id: 5478
+    byte: 0
+  20dollars:
+    id: 5479
+    byte: 0
+  50dollars:
+    id: 5480
+    byte: 0
+  100dollars:
+    id: 5481
+    byte: 0
+  200dollars:
+    id: 5482
+    byte: 0
+  500dollars:
+    id: 5483
+    byte: 0
+Missions:
+  policier:
+    '0':
+      name: Défendre la banque du sud
+      displayName: Défendre la banque du sud
+      objective: §6Cette mission consiste à défendre la banque sud pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 200
+      uuid: 36e25e0e-d005-4a84-9e16-c19836a1fc0c
+      GeneralType:
+        desc: Défendre la banque du sud.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: 322
+          y: 64
+          z: 789
+        secondPoint:
+          x: 359
+          y: 64
+          z: 768
+        timeDefend: 60000
+    '1':
+      name: Bijou par millier
+      displayName: Bijou par millier
+      objective: §6Cette mission consiste à défendre la bijouterie pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 100
+      uuid: 058b2186-9291-419f-bff7-25108cf4575b
+      GeneralType:
+        desc: Défendre la bijouterie.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -575
+          y: 63
+          z: -1128
+        secondPoint:
+          x: -576
+          y: 63
+          z: -1105
+        timeDefend: 60000
+    '2':
+      name: Défendre le marché
+      displayName: Défendre le marché
+      objective: §6Cette mission consiste à défendre le marché pendant 1 minute.
+      xp: 0
+      id: 384
+      byte: 0
+      price: 50
+      uuid: 8ae8ede7-d56e-4b1e-96fd-dcc58b0903d4
+      GeneralType:
+        desc: Défendre le marché.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -926
+          y: 64
+          z: -1065
+        secondPoint:
+          x: -928
+          y: 64
+          z: -1087
+        timeDefend: 60000
+    '3':
+      name: Défendre le commissariat
+      displayName: Défendre le commissariat
+      objective: §6Cette mission consiste à défendre le commissariat pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 75
+      uuid: c4339b8e-1cf0-42ed-a0e1-98f011000c89
+      GeneralType:
+        desc: Défendre le commissariat.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -783
+          y: 61
+          z: -1206
+        secondPoint:
+          x: -771
+          y: 61
+          z: -1202
+        timeDefend: 60000
+    '4':
+      name: Chef de meute
+      displayName: Chef de meute
+      objective: §6Cette mission consiste à éliminer le loup sauvage qui est situé devant la mairie.
+      xp: 0
+      id: 383
+      byte: 95
+      price: 100
+      uuid: a36e97d0-414a-4865-8280-899be6102cc1
+      GeneralType:
+        desc: Éliminer le loup sauvage.
+        task: KillTask
+      KillTask:
+        entity: wolf
+        count: 1
+    '6':
+      name: Nettoyage
+      displayName: Nettoyage
+      objective: §6Cette mission consiste à fouiller un civil.
+      xp: 0
+      id: 4190
+      byte: 0
+      price: 100
+      uuid: 3fcd25fd-7fc3-4883-bf2c-86ac13b65b8e
+      GeneralType:
+        desc: Fouiller un civil.
+        task: FouilleTask
+      FouilleTask:
+        jobs:
+        - civile
+        count: 1
+    '7':
+      name: Menottage
+      displayName: Menottage
+      objective: §6Cette mission consiste à menotter un civil.
+      xp: 0
+      id: 5194
+      byte: 0
+      price: 100
+      uuid: 83a78d30-c611-4dbc-a09e-1388a37fb94f
+      GeneralType:
+        desc: Menotter un civil.
+        task: MenotteTask
+      MenotteTask:
+        jobs:
+        - civile
+        count: 1
+  gign:
+    '0':
+      name: Défendre le quartier général du gign
+      displayName: Défendre le quartier général du gign
+      objective: §6Cette mission consiste à défendre pendant 1 minute le quartier général du gign.
+      xp: 0
+      id: 6641
+      byte: 0
+      price: 75
+      uuid: b24f3d55-c7a8-4901-a37c-d1597d61dfd5
+      GeneralType:
+        desc: Défendre le quartier général du gign.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: 526
+          y: 61
+          z: -972
+        secondPoint:
+          x: 519
+          y: 61
+          z: -972
+        timeDefend: 60000
+    '1':
+      name: Défendre le musée
+      displayName: Défendre le musée
+      objective: §6Cette mission consiste à défendre le musée pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 400
+      uuid: eb51752e-61eb-45ed-80dc-2110d2313edb
+      GeneralType:
+        desc: Défendre le musée.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -128
+          y: 66
+          z: -1031
+        secondPoint:
+          x: -144
+          y: 66
+          z: -1029
+        timeDefend: 60000
+    '5':
+      name: Défendre la banque du nord
+      displayName: Défendre la banque du nord
+      objective: §6Cette mission consiste à défendre la banque du nord pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 300
+      uuid: 36e25e0e-d005-4a84-9e16-c19836a1fc0c
+      GeneralType:
+        desc: Défendre la banque du nord.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: 1056
+          y: 68
+          z: -876
+        secondPoint:
+          x: 1066
+          y: 68
+          z: -829
+        timeDefend: 60000
+    '6':
+      name: Défendre la gare_maritime
+      displayName: Défendre la gare maritime
+      objective: §6Cette mission consiste à défendre la gare maritime pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 50
+      uuid: 9454e6e3-0806-4ee7-907a-6cbaedf8d008
+      GeneralType:
+        desc: Défendre la gare maritime.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -1018
+          y: 64
+          z: -1138
+        secondPoint:
+          x: -1117
+          y: 64
+          z: -1120
+        timeDefend: 60000
+    '7':
+      name: Nettoyage
+      displayName: Nettoyage
+      objective: §6Cette mission consiste à fouiller un civil.
+      xp: 0
+      id: 4190
+      byte: 0
+      price: 100
+      uuid: dd3f4fac-0ca7-4585-9e91-f6d717c648b1
+      GeneralType:
+        desc: Fouiller un civil.
+        task: FouilleTask
+      FouilleTask:
+        jobs:
+        - civile
+        count: 1
+    '9':
+      name: Menottage
+      displayName: Menottage
+      objective: §6Cette mission consiste à menotter un civil.
+      xp: 0
+      id: 5194
+      byte: 0
+      price: 100
+      uuid: daf88eba-8f71-4441-8d62-c4fb6e823b88
+      GeneralType:
+        desc: Menotter un civil.
+        task: MenotteTask
+      MenotteTask:
+        jobs:
+        - civile
+        count: 1
+  gendarme:
+    '0':
+      name: Défendre la gendarmerie
+      displayName: Défendre la gendarmerie
+      objective: §6Cette mission consiste à défendre pendant 1 minute la gendarmerie.
+      xp: 0
+      id: 6641
+      byte: 0
+      price: 75
+      uuid: b24f3d55-c7a8-4901-a37c-d1597d61dfd5
+      GeneralType:
+        desc: Défendre la gendarmerie.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: 861
+          y: 61
+          z: -102
+        secondPoint:
+          x: 780
+          y: 62
+          z: -182
+        timeDefend: 60000
+    '1':
+      name: Défendre le musée
+      displayName: Défendre le musée
+      objective: §6Cette mission consiste à défendre le musée pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 400
+      uuid: eb51752e-61eb-45ed-80dc-2110d2313edb
+      GeneralType:
+        desc: Défendre le musée.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -128
+          y: 66
+          z: -1031
+        secondPoint:
+          x: -144
+          y: 66
+          z: -1029
+        timeDefend: 60000
+    '5':
+      name: Défendre la banque du nord
+      displayName: Défendre la banque du nord
+      objective: §6Cette mission consiste à défendre la banque du nord pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 300
+      uuid: 36e25e0e-d005-4a84-9e16-c19836a1fc0c
+      GeneralType:
+        desc: Défendre la banque du nord.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: 1056
+          y: 68
+          z: -876
+        secondPoint:
+          x: 1066
+          y: 68
+          z: -829
+        timeDefend: 60000
+    '6':
+      name: Défendre la gare_maritime
+      displayName: Défendre la gare maritime
+      objective: §6Cette mission consiste à défendre la gare maritime pendant 1 minute.
+      xp: 0
+      id: 5126
+      byte: 0
+      price: 50
+      uuid: 9454e6e3-0806-4ee7-907a-6cbaedf8d008
+      GeneralType:
+        desc: Défendre la gare maritime.
+        task: DefendTask
+      DefendTask:
+        firstPoint:
+          x: -1018
+          y: 64
+          z: -1138
+        secondPoint:
+          x: -1117
+          y: 64
+          z: -1120
+        timeDefend: 60000
+    '7':
+      name: Nettoyage
+      displayName: Nettoyage
+      objective: §6Cette mission consiste à fouiller un civil.
+      xp: 0
+      id: 4190
+      byte: 0
+      price: 100
+      uuid: dd3f4fac-0ca7-4585-9e91-f6d717c648b1
+      GeneralType:
+        desc: Fouiller un civil.
+        task: FouilleTask
+      FouilleTask:
+        jobs:
+        - civile
+        count: 1
+    '9':
+      name: Menottage
+      displayName: Menottage
+      objective: §6Cette mission consiste à menotter un civil.
+      xp: 0
+      id: 5194
+      byte: 0
+      price: 100
+      uuid: daf88eba-8f71-4441-8d62-c4fb6e823b88
+      GeneralType:
+        desc: Menotter un civil.
+        task: MenotteTask
+      MenotteTask:
+        jobs:
+        - civile
+        count: 1
+Colis:
+  '0':
+    id: 6543
+    byte: 0
+    amount: 1
+  '1':
+    id: 6340
+    byte: 0
+    amount: 5
+  '2':
+    id: 7423
+    byte: 0
+    amount: 1
+  '3':
+    id: 5126
+    byte: 0
+    amount: 1
+  '4':
+    id: 6477
+    byte: 0
+    amount: 1
+  '5':
+    id: 7429
+    byte: 0
+    amount: 1
+  '6':
+    id: 7446
+    byte: 0
+    amount: 5
+  '7':
+    id: 7441
+    byte: 0
+    amount: 1
+  '8':
+    id: 6319
+    byte: 0
+    amount: 5
+  '9':
+    id: 7344
+    byte: 0
+    amount: 1
+  '10':
+    id: 7275
+    byte: 0
+    amount: 1
+  '11':
+    id: 7258
+    byte: 0
+    amount: 1
+  '12':
+    id: 7564
+    byte: 0
+    amount: 16
+  '13':
+    id: 4679
+    byte: 0
+    amount: 1
+  '14':
+    id: 7483
+    byte: 0
+    amount: 1
+  '15':
+    id: 4691
+    byte: 0
+    amount: 1
+  '16':
+    id: 4682
+    byte: 0
+    amount: 1
+  '17':
+    id: 4685
+    byte: 0
+    amount: 1
+  '18':
+    id: 6822
+    byte: 0
+    amount: 1
+  '19':
+    id: 4984
+    byte: 0
+    amount: 1
+  '20':
+    id: 6532
+    byte: 0
+    amount: 1
+  '21':
+    id: 6280
+    byte: 0
+    amount: 1
+  '22':
+    id: 6393
+    byte: 0
+    amount: 1
+  '23':
+    id: 7558
+    byte: 0
+    amount: 1
+  '24':
+    id: 6538
+    byte: 0
+    amount: 1
+  '25':
+    id: 7606
+    byte: 0
+    amount: 1
+  '26':
+    id: 7638
+    byte: 0
+    amount: 1
+Parcelle:
+  Local:
+    company_04:
+      id: 5122
+      price: 0
+      byte: 0
+      displayName: company_04
+    company_01:
+      id: 5122
+      price: 352000
+      byte: 0
+      displayName: company_01
+    company_02:
+      id: 5122
+      price: 359000
+      byte: 0
+      displayName: company_02
+    company_03:
+      id: 5122
+      price: 321000
+      byte: 0
+      displayName: company_03
+    company_05:
+      id: 5122
+      price: 264000
+      byte: 0
+      displayName: company_05
+    company_06:
+      id: 5122
+      price: 92000
+      byte: 0
+      displayName: company_06
+    company_07:
+      id: 5122
+      price: 271000
+      byte: 0
+      displayName: company_07
+    company_08:
+      id: 5122
+      price: 286000
+      byte: 0
+      displayName: company_08
+    company_09:
+      id: 5122
+      price: 298000
+      byte: 0
+      displayName: company_09
+    company_10:
+      id: 5122
+      price: 302000
+      byte: 0
+      displayName: company_10
+    company_11:
+      id: 5122
+      price: 305000
+      byte: 0
+      displayName: company_11
+    company_12:
+      id: 5122
+      price: 315000
+      byte: 0
+      displayName: company_12
+    company_13:
+      id: 5122
+      price: 318000
+      byte: 0
+      displayName: company_13
+  Champ:
+    champs_01:
+      id: 296
+      price: 0
+      byte: 0
+      displayName: champs_01
+    champs_02:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_02
+    champs_03:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_03
+    champs_04:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_04
+    champs_05:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_05
+    champs_06:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_06
+    champs_07:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_07
+    champs_08:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_08
+    champs_09:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_09
+    champs_10:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_10
+    champs_11:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_11
+    champs_12:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_12
+    champs_13:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_13
+    champs_14:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_14
+    champs_15:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_15
+    champs_16:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_16
+    champs_17:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_17
+    champs_18:
+      id: 296
+      price: 300000
+      byte: 0
+      displayName: champs_18
+  Enclos:
+    enclos_01:
+      id: 107
+      price: 0
+      byte: 0
+      displayName: enclos_01
+    enclos_02:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_02
+    enclos_03:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_03
+    enclos_04:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_04
+    enclos_05:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_05
+    enclos_06:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_06
+    enclos_07:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_07
+    enclos_08:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_08
+    enclos_09:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_09
+    enclos_10:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_10
+    enclos_11:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_11
+    enclos_12:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_12
+    enclos_13:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_13
+    enclos_14:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_14
+    enclos_15:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_15
+    enclos_16:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_16
+    enclos_17:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_17
+    enclos_18:
+      id: 107
+      price: 289000
+      byte: 0
+      displayName: enclos_18
+Chests:
+  money:
+    '0':
+      id: 5481
+      data: 0
+      quantity: 5
+    '1':
+      id: 5482
+      data: 0
+      quantity: 5
+  drug:
+    '0':
+      id: 4170
+      data: 0
+      quantity: 1
+    '1':
+      id: 4170
+      data: 0
+      quantity: 2
+    '2':
+      id: 4170
+      data: 0
+      quantity: 3
+    '3':
+      id: 4165
+      data: 0
+      quantity: 1
+    '4':
+      id: 4165
+      data: 0
+      quantity: 2
+    '5':
+      id: 4165
+      data: 0
+      quantity: 3
+  car:
+    '0':
+      id: 4847
+      data: 0
+      quantity: 1
+    '1':
+      id: 4852
+      data: 0
+      quantity: 1
+  weapon:
+    '0':
+      id: 6286
+      data: 0
+      quantity: 1
+    '1':
+      id: 6438
+      data: 0
+      quantity: 1
+Casino:
+  jackpot:
+    necessary-item:
+      id: 5440
+      byte: 0
+      quantity: 1
+Recettes: {}
+Prisons:
+- prison100
+RoomsHopital:
+- hopitalchambre1
+- hopitalchambre2
+- hopitalchambre3
+- hopitalchambre4
+- hopitalchambre5
+freeArea:
+  max:
+    x: 552.0
+    y: 6.0
+    z: 1081.0
+  min:
+    x: -212.0
+    y: 6.0
+    z: 1081.0
+  worldname: world1
+Braquage:
+  caisse:
+  - '5483:0:1'
+  - '5482:0:1'
+  - '5480:0:1'
+tresorerie:
+  policier: 1110525.0
+  militaire: 960100.0
+  douanier: 1487850.0
+  gign: 1862097.91
+  gendarme: 1141500.0
+  bac: 714300.0
+  staff: 1.3326391553999999E8
+  maire: 1307152.5
+  medecin: 500000.0
+  pompier: 500000.0
+  assemblee: 3500000.0
+gardes: []
+mandat: []

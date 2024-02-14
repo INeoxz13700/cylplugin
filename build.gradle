@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+version = '1.0.0-SNAPSHOT'
+shadowJar.archiveFileName = 'CYLRP-CORE.jar'
+
+dependencies {
+    implementation 'fr.cyl.api:plugin:0.2.5'
+    implementation files('libs/spigot.jar', 'libs/worldguard.jar', 'libs/worldedit.jar', 'libs/citizens.jar',
+    'libs/Essentials.jar', 'libs/EssentialsGroupManager.jar', 'libs/Vault.jar')
+}
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+javadoc.options.encoding = 'UTF-8'
+
+shadowJar {
+    exclude 'spigot.jar'
+    exclude 'worldguard.jar'
+    exclude 'worldedit.jar'
+    exclude 'citizens.jar'
+    exclude 'Essentials.jar'
+    exclude 'EssentialsGroupManager.jar'
+    exclude 'Vault.jar'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "github"
+        url = "https://maven.pkg.github.com/programfight/cylapi"
+        credentials {
+            username = "programfight"
+            password = "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"
+        }
+    }
+}
